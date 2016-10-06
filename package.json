@@ -1,0 +1,35 @@
+{
+  "name": "gulp-deploy-s3",
+  "version": "0.0.1",
+  "description": "Gulp setup for deploying static webpages to AWS S3 - minified and gzipped",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitbenji/gulp-deploy-s3.git"
+  },
+  "keywords": [
+    "gulp",
+    "aws",
+    "s3",
+    "static",
+    "minified"
+  ],
+  "author": "Benji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitbenji/gulp-deploy-s3/issues"
+  },
+  "homepage": "https://github.com/gitbenji/gulp-deploy-s3#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.6.6",
+    "gulp": "^3.9.1",
+    "gulp-awspublish": "^3.3.0",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "merge-stream": "^1.0.0"
+  }
+}
